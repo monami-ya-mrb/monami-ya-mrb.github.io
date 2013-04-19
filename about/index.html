@@ -1,0 +1,234 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>about - monami-ya.mrb</title>
+  <meta name="author" content="Monami-ya LLC, Japan">
+
+  
+  <meta name="description" content="About Apr 9th, 2013 「monami-ya.mrb」(もなみ や えむあーるびー)は，軽量Ruby言語処理系である mruby に対して，機器組込み向けの拡張を行ったライブラリパッケージです．
+monami-ya.mrb には，オープンソース版と商用版の2種類があります． &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://monami_ya_mrb.bitbucket.org//about">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="monami-ya.mrb" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+
+  
+
+</head>
+
+<body   class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">monami-ya.mrb</a></h1>
+  
+    <h2>mruby distribution for embedded systems.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:monami_ya_mrb.bitbucket.org/" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">About</h1>
+    <p class="meta">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-04-09T00:00:00+09:00" pubdate data-updated="true">Apr 9<span>th</span>, 2013</time></p>
+  </header>
+  
+  <p>「monami-ya.mrb」(もなみ や えむあーるびー)は，軽量Ruby言語処理系である mruby に対して，機器組込み向けの拡張を行ったライブラリパッケージです．
+monami-ya.mrb には，オープンソース版と商用版の2種類があります．</p>
+
+<h2>オープンソース版</h2>
+
+<p>オープンソース版は，github.com 上のホスティングサービスで開発が行われている公式リリース(以下，元祖mrubyと略記)に対して，下記のような，機器組込み向けの拡張を行なっております．</p>
+
+<ul>
+<li>TLSFメモリアロケータとの統合による省メモリ環境対応</li>
+<li>新規開発のロギングフレームワークによる，メッセージ出力先の設定</li>
+<li>新規開発のC言語API用のテストフレームワークによる，テスト環境の利便性向上</li>
+</ul>
+
+
+<p>オープンソース版は，その名の通り，大部分を元祖 mruby と同じ MITライセンスで，TLSFメモリアロケータなどいくつかの例外を含めてもオープンソースライセンスに基づきご利用頂けます．</p>
+
+<p>bitbucket.org 上のホスティングサービスを用いて公開されており，どなたでもダウンロード可能です．</p>
+
+<p><a href="http://support.monami-ya.com/mruby/">http://support.monami-ya.com/mruby/</a></p>
+
+<h2>商用版 (2013年6月出荷予定)</h2>
+
+<p>monami-ya.mrb のオープンソース版を基として，製品組込みに求められる追加機能を含む製品です．
+オープンソース版 monami-ya.mrb に対して，さらに下記の拡張を行なっています．</p>
+
+<h3>商用版ならではの付加価値</h3>
+
+<p>商用版構成物のうち，下記の要素は，オープンソース版には含まれません．</p>
+
+<ul>
+<li>C言語API用のテストケース</li>
+<li>C言語APIおよびRuby言語APIテスト結果の一覧表</li>
+<li>開発環境構築用ドキュメント一式</li>
+</ul>
+
+
+<h3>再配布可能な付加価値</h3>
+
+<p>下記の要素は，オープンソースライセンスに基づく再配布が可能です．</p>
+
+<ul>
+<li>C言語APIテスト環境で弊社が用いている， PizzaFactory GNU toolchain 一式</li>
+</ul>
+
+
+<h3>機器組込みを低コストで実現</h3>
+
+<p>商用版は，ドキュメントの原稿を除き，全ソースコードに対して使用が許諾されます．
+ソースコードの再配布は許諾されませんが，生成されたバイナリの機器組込みの際にはロイヤリティ・フリーでご利用頂けます．
+(バイナリに組み込む要素によっては，オープンソースライセンスに基づく再配布条件が設定される場合があります．詳細につきましては弊社までお問い合わせください．)</p>
+
+<h2>商用版サポート</h2>
+
+<p>monami-ya.mrb 商用版をお求めのお客様に，技術サポートを提供いたします．
+開発環境構築を終えたあとの実開発で直面する技術的なご質問から，製品開発の際の受託まで，様々なご要望にお応えいたします．詳細につきましては弊社までお問い合わせください．</p>
+
+  
+    <footer>
+      <p class="meta">
+        
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-04-09T00:00:00+09:00" pubdate data-updated="true">Apr 9<span>th</span>, 2013</time>
+        
+      </p>
+      
+        <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://monami_ya_mrb.bitbucket.org//about/index.html" data-via="" data-counturl="http://monami_ya_mrb.bitbucket.org//about/index.html" >Tweet</a>
+  
+  
+  
+</div>
+
+      
+    </footer>
+  
+</article>
+
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/04/19/site-open/">サイトをオープンいたしました</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Monami-ya LLC, Japan -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
