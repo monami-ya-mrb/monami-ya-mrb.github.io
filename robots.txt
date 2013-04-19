@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://monami_ya_mrb.github.io/monami_ya_mrb/sitemap.xml 

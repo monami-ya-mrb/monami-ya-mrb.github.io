@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[My Octopress Blog]]></title>
+  <link href="http://monami_ya_mrb.github.io/monami_ya_mrb/atom.xml" rel="self"/>
+  <link href="http://monami_ya_mrb.github.io/monami_ya_mrb/"/>
+  <updated>2013-04-19T15:54:06+09:00</updated>
+  <id>http://monami_ya_mrb.github.io/monami_ya_mrb/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
