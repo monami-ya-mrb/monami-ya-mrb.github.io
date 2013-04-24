@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://monami_ya_mrb.bitbucket.org//sitemap.xml 
+Sitemap: http://mrb.monami-ja.jp//sitemap.xml 

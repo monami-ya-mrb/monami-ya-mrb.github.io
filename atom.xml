@@ -2,22 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[monami-ya.mrb]]></title>
-  <link href="http://monami_ya_mrb.bitbucket.org//atom.xml" rel="self"/>
-  <link href="http://monami_ya_mrb.bitbucket.org//"/>
-  <updated>2013-04-19T17:55:52+09:00</updated>
-  <id>http://monami_ya_mrb.bitbucket.org//</id>
+  <link href="http://mrb.monami-ja.jp//atom.xml" rel="self"/>
+  <link href="http://mrb.monami-ja.jp//"/>
+  <updated>2013-04-24T23:57:24+09:00</updated>
+  <id>http://mrb.monami-ja.jp//</id>
   <author>
     <name><![CDATA[Monami-ya LLC, Japan]]></name>
-    <email><![CDATA[support@monami-ya.com]]></email>
+    <email><![CDATA[support@monami-ya.jp]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[サイトをオープンいたしました]]></title>
-    <link href="http://monami_ya_mrb.bitbucket.org//blog/2013/04/19/site-open/"/>
+    <link href="http://mrb.monami-ja.jp//blog/2013/04/19/site-open/"/>
     <updated>2013-04-19T18:00:00+09:00</updated>
-    <id>http://monami_ya_mrb.bitbucket.org//blog/2013/04/19/site-open</id>
+    <id>http://mrb.monami-ja.jp//blog/2013/04/19/site-open</id>
     <content type="html"><![CDATA[<p>http://www.monami-ya.jp/ から，関連情報を分離いたしました．</p>
 ]]></content>
   </entry>
